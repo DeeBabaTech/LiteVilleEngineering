@@ -37,14 +37,14 @@ function ProTwo() {
             <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
                 <h1 className='text-lg mb-2'> LET'S CONSIDER IT </h1>
                 <p className='mb-5'> Always here for you</p>
-                <form action=''>
-                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-60' type='text' placeholder='*Full Name' />
-                    <input className='bg-[#056db7] outline-none border-b-2 w-60' type='email' placeholder='*Email Address' /> <br /> <br/>
-                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-60' type='text' placeholder='*Phone Number' />
-                    <input className='bg-[#056db7] outline-none border-b-2 w-60' type='text' placeholder='*Subject' />
+                <div className=''>
+                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-72' type='text' placeholder='*Full Name' />
+                    <input className='bg-[#056db7] outline-none border-b-2 w-72' type='email' placeholder='*Email Address' /> <br /> <br/>
+                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-72' type='text' placeholder='*Phone Number' />
+                    <input className='bg-[#056db7] outline-none border-b-2 w-72' type='text' placeholder='*Subject' />
                     <p className='text-left md:mt-5 mt-10'>*Required Fields</p>
-                </form>
-                <input type='submit' value='SEND >' className='outline outline-white outline-2 text-center w-fit m-auto md:mt-5 mt-10 px-3' />
+                </div>
+                <h2 type='submit' value='Submit' className='outline outline-white outline-2 text-center w-fit m-auto md:mt-5 mt-10 px-3'>SEND <i class="fa-sharp fa-solid fa-greater-than ml-2"></i></h2>
             </div> 
         </div>
 

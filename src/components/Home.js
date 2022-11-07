@@ -23,7 +23,7 @@ function Home() {
         <div className='w-[90%] m-auto'>
             <h2 className='text-xl font-bold text-center py-5 md:py-12'>Activities</h2>
             <div className='md:flex justify-between items-center'>
-                <div className='md:w-[30%]'>
+                <div className='md:w-[40%]'>
                     <img className='md:w-[60%] w-[50%] m-auto duration-700 hover:scale-110' src={ellip1} alt='' />
                     <div className='text-center mt-5 font-bold'> Maintenance </div>
                     <p className='text-center mt-2'>
@@ -34,7 +34,7 @@ function Home() {
                     </p>
                     
                 </div>
-                <div className='md:w-[30%] pt-10 md:pt-0'>
+                <div className='md:w-[40%] pt-10 md:pt-0'>
                     <img className='md:w-[60%] w-[50%] m-auto duration-700 hover:scale-110' src={ellip3} alt='' />
                     <div className='text-center mt-5 font-bold'> Procurement </div>
                     <p className='text-center mt-2'>
@@ -44,7 +44,7 @@ function Home() {
                         </Link> 
                     </p>
                 </div>
-                <div className='md:w-[30%] pt-10 md:pt-0'>
+                <div className='md:w-[40%] pt-10 md:pt-0'>
                     <img className='md:w-[60%] w-[50%] m-auto duration-700 hover:scale-110' src={ellip2} alt='' />
                     <div className='text-center mt-5 font-bold'> M & E Installation </div>
                     <p className='text-center mt-2'>Our installations are carried out by experienced and trained profession</p>
@@ -57,7 +57,7 @@ function Home() {
             <img src={curve} className='h-[57rem] md:h-full' alt='' />
             <div className='md:flex justify-between w-[90%] m-auto absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
                 <Link to='/pro1' >
-                    <div className='w-56 md:w-[95%] m-auto mb-5 relative'>
+                    <div className='w-56 md:w-full m-auto mb-5 relative'>
                         <div className='overflow-hidden'>
                             <img className='duration-700 hover:scale-110' src={img3} alt=''/>
                         </div>
@@ -65,7 +65,7 @@ function Home() {
                     </div>
                 </Link>
                 <Link to='/pro2'>
-                    <div className='w-56 md:w-[95%] m-auto mb-5 relative'>
+                    <div className='w-56 md:w-full m-auto mb-5 relative'>
                         <div className='overflow-hidden'>
                             <img className='duration-700 hover:scale-110' src={img1} alt=''/>
                         </div>
@@ -73,7 +73,7 @@ function Home() {
                     </div>
                 </Link>
                 <Link to='/pro3'>
-                    <div className='w-56 md:w-[95%] m-auto mb-5 relative'>
+                    <div className='w-56 md:w-full m-auto mb-5 relative'>
                         <div className='overflow-hidden'>
                             <img className='duration-700 hover:scale-110' src={img2} alt=''/>
                         </div>
@@ -88,13 +88,13 @@ function Home() {
             <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
                 <h1 className='text-lg mb-2'> LET'S CONSIDER IT </h1>
                 <p className='mb-5'> Always here for you</p>
-                <form action=''>
-                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-60' type='text' placeholder='*Full Name' />
-                    <input className='bg-[#056db7] outline-none border-b-2 w-60' type='email' placeholder='*Email Address' /> <br /> <br/>
-                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-60' type='text' placeholder='*Phone Number' />
-                    <input className='bg-[#056db7] outline-none border-b-2 w-60' type='text' placeholder='*Subject' />
+                <div className=''>
+                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-72' type='text' placeholder='*Full Name' />
+                    <input className='bg-[#056db7] outline-none border-b-2 w-72' type='email' placeholder='*Email Address' /> <br /> <br/>
+                    <input className='bg-[#056db7] outline-none border-b-2 mb-6 md:mb-0 md:mr-5 w-72' type='text' placeholder='*Phone Number' />
+                    <input className='bg-[#056db7] outline-none border-b-2 w-72' type='text' placeholder='*Subject' />
                     <p className='text-left md:mt-5 mt-10'>*Required Fields</p>
-                </form>
+                </div>
                 <input type='submit' value='SEND >' className='outline outline-white outline-2 text-center w-fit m-auto md:mt-5 mt-10 px-3' />
             </div> 
         </div>
