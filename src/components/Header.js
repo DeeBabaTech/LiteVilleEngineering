@@ -14,7 +14,7 @@ function Header() {
       return (
         <>
           <nav className="flex justify-between items-center py-5 w-[90%] m-auto" >
-            <Link to='/' className="text-xl">
+            <Link to='/LiteVilleEngineering' className="text-xl">
               <img src={logo} alt="logo" className="mr-5 w-32 md:w-full"/>
             </Link> 
             
@@ -23,7 +23,7 @@ function Header() {
                 <i className='fas fa-times' /> 
               </div>
               
-              <Link to='/' className="inline-block lg:mr-10 text-xl hover:text-slate-500" onClick={handleClick}>
+              <Link to='/LiteVilleEngineering' className="inline-block lg:mr-10 text-xl hover:text-slate-500" onClick={handleClick}>
                 <li className='hover:text-slate-500 border-b-2 border-t-2 border-white py-2'>Main</li> 
               </Link>
 
