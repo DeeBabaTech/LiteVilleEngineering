@@ -23,10 +23,10 @@ import ProNine from './components/ProNine'
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router>
         <Header />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/intro' element={<Intro />} />
           <Route path='/profile' element={<Profile />} />
