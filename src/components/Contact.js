@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div>
       <div className='text-center text-white relative mb-8'>
-        <img src={herobox} className='h-80 md:h-full brightness-50' alt='' />
+        <img src={herobox} className='h-80 md:h-full w-full brightness-50' alt='' />
         <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
             <h1 className='text-3xl font-bold mb-2'> Contact Us </h1>
             <p>Main <i class="fa-sharp fa-solid fa-greater-than mx-2"></i> Contact Us </p>
@@ -34,7 +34,7 @@ function Contact() {
       </div>
 
       <div className='text-center text-white relative'>
-            <img src={curve2} className='h-[55rem] md:h-full' alt='' />
+            <img src={curve2} className='h-[55rem] md:h-full w-full' alt='' />
             <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
                 <h1 className='text-lg mb-2'> LET'S CONSIDER IT </h1>
                 <p className='mb-5'> Always here for you</p>

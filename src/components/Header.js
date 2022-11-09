@@ -31,10 +31,10 @@ function Header() {
                 <li className='hover:text-slate-500 border-b-2 border-white md:py-3 py-2'> About </li>
                 <div className='btn absolute -left-12 shadow-slate-700 shadow-lg rounded-md  z-10 bg-slate-200 hidden'>
                   <Link to='/intro' >
-                    <li className='px-12 py-3 text-lg rounded-t-md hover:bg-slate-500'>Intro</li>
+                    <li className='px-12 py-3 text-lg rounded-t-md hover:bg-blue-600'>Intro</li>
                   </Link>
                   <Link to='/profile'>
-                    <li className='px-12 py-3 text-lg rounded-b-md hover:bg-slate-500'>Profile</li>
+                    <li className='px-12 py-3 text-lg rounded-b-md hover:bg-blue-600'>Profile</li>
                   </Link>
                 </div> 
               </Link>
@@ -43,10 +43,10 @@ function Header() {
                 <li className='hover:text-slate-500 border-b-2 border-white md:py-3 py-2'>Activities</li>
                 <div className='btn absolute -left-12 shadow-slate-700 shadow-lg rounded-md  z-10 bg-slate-200 hidden'>
                   <Link to='/procurement' >
-                    <li className='px-12 py-3 text-lg rounded-t-md hover:bg-slate-500'>Procurement</li>
+                    <li className='px-12 py-3 text-lg rounded-t-md hover:bg-blue-600'>Procurement</li>
                   </Link>
                   <Link to='/maintenance'>
-                    <li className='px-12 py-3 text-lg rounded-b-md hover:bg-slate-500'>Maintenance</li>
+                    <li className='px-12 py-3 text-lg rounded-b-md hover:bg-blue-600'>Maintenance</li>
                   </Link>
                 </div>
               </Link>

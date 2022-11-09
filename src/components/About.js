@@ -21,7 +21,7 @@ function About() {
         </div> 
       </div>
       <div className='text-white relative'>
-        <img src={about2} className='h-[30rem] md:h-full brightness-50' alt='' />
+        <img src={about2} className='h-[30rem] md:h-full w-full brightness-50' alt='' />
         <div className='absolute top-[50%] md:left-[40%] left-[5%] md:-translate-x-1/2 -translate-x-[0%] -translate-y-1/2'>
             <h1 className='text-3xl text-red-600 font-bold mb-2'> Intro </h1>
             <p className='text-xl mb-5'> 
@@ -35,7 +35,7 @@ function About() {
         </div>
       </div>
       <div className='text-white relative'>
-        <img src={about3} className='h-80 md:h-full brightness-50' alt='' />
+        <img src={about3} className='h-80 md:h-full w-full brightness-50' alt='' />
         <div className='absolute top-[50%] md:left-[50%] left-[5%] -translate-y-1/2'>
             <h1 className='text-3xl text-red-600 font-bold mb-2'> Profile </h1>
             <p className='text-xl mb-5'> 
@@ -48,7 +48,7 @@ function About() {
         </div>
       </div>
       <div className='text-white relative'>
-        <img src={about1} className='h-80 md:h-full brightness-50' alt='' />
+        <img src={about1} className='h-80 md:h-full w-full brightness-50' alt='' />
         <div className='absolute top-[50%] md:left-[50%] left-[5%] -translate-y-1/2'>
             <h1 className='text-3xl text-red-600 font-bold mb-2'> Customer </h1>
             <p className='text-xl'> 
@@ -59,7 +59,7 @@ function About() {
         </div>
       </div>
       <div className='text-center text-white relative'>
-            <img src={curve2} className='h-[55rem] md:h-full' alt='' />
+            <img src={curve2} className='h-[55rem] md:h-full w-full' alt='' />
             <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
                 <h1 className='text-lg mb-2'> LET'S CONSIDER IT </h1>
                 <p className='mb-5'> Always here for you</p>
