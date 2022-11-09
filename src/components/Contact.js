@@ -51,10 +51,10 @@ function Contact() {
 
         <div className='text-center mb-10'>
             <div className='flex justify-center mb-10'>
-                <a href='/' className='mr-2'> <img src={whatsApp} alt ='whatsApp link' /> </a>
-                <a href='/' className='mr-2'> <img src={gmail} alt ='whatsApp link' /> </a>
-                <a href='/' className='mr-2'> <img src={instagram} alt ='whatsApp link' /> </a>
-                <a href='/'> <img src={linkedin} alt ='whatsApp link' /> </a>
+                <a href='https://wa.link/hred3l' className='mr-2'> <img src={whatsApp} alt ='whatsApp link' /> </a>
+                <a href='mailto:info@litevilleengineering.com' className='mr-2'> <img src={gmail} alt ='gmail' /> </a>
+                <a href='/' className='mr-2'> <img src={instagram} alt ='instagram link' /> </a>
+                <a href='https://linkedin.com/KolawoleOyelade'> <img src={linkedin} alt ='linkedIn link' /> </a>
             </div>
             <div className='md:flex justify-center mt-5 text-sm'>
                 <p className='mr-5 md:mr-0'>LITEVILLE ENGINEERING COMPANY  &#169;  2022. </p> 
