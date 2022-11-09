@@ -14,7 +14,7 @@ function About() {
   return (
     <div>
       <div className='text-center text-white relative mb-10'>
-        <img src={herobox2} className='h-80 md:h-full brightness-50' alt='' />
+        <img src={herobox2} className='h-80 md:h-full w-full brightness-50' alt='' />
         <div className='absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2'>
             <h1 className='text-3xl font-bold mb-2'> About </h1>
             <p>Main <i class="fa-sharp fa-solid fa-greater-than mx-2"></i> About</p>
@@ -76,10 +76,10 @@ function About() {
 
         <div className='text-center mb-10'>
             <div className='flex justify-center mb-10'>
-                <a href='/' className='mr-2'> <img src={whatsApp} alt ='whatsApp link' /> </a>
-                <a href='/' className='mr-2'> <img src={gmail} alt ='whatsApp link' /> </a>
-                <a href='/' className='mr-2'> <img src={instagram} alt ='whatsApp link' /> </a>
-                <a href='/'> <img src={linkedin} alt ='whatsApp link' /> </a>
+                <a href='https://wa.link/hred3l' className='mr-2'> <img src={whatsApp} alt ='whatsApp link' /> </a>
+                <a href='mailto:info@litevilleengineering.com' className='mr-2'> <img src={gmail} alt ='gmail' /> </a>
+                <a href='/' className='mr-2'> <img src={instagram} alt ='instagram link' /> </a>
+                <a href='https://linkedin.com/KolawoleOyelade'> <img src={linkedin} alt ='linkedIn link' /> </a>
             </div>
             <div className='md:flex justify-center mt-5 text-sm'>
                 <p className='mr-5 md:mr-0'>LITEVILLE ENGINEERING COMPANY  &#169;  2022. </p> 
