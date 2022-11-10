@@ -57,7 +57,7 @@ function ProTwo() {
             </div>
             <div className='md:flex justify-center mt-5 text-sm'>
                 <p className='mr-5 md:mr-0'>LITEVILLE ENGINEERING COMPANY  &#169;  2022. </p> 
-                <p>Copyright All Right Reserved</p>
+                <p>Copyright All Right Reserved.</p>
             </div>
         </div>
 
